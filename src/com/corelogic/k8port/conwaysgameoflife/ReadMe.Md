@@ -1,25 +1,23 @@
-# Kata
+# Conway's Game of Life
 
-## Conway's Game of Life
-
- The following is a TDD Kata- an exercise in coding, refactoring and test-first, that you should apply daily for at least 15 minutes (I do 30).
+ The following is a TDD exercise - to get used to coding, refactoring and test-first development. For best results, apply daily for at least 30 minutes.
 
  Before you start: 
 
   * Try not to read ahead.
   * Do one task at a time. The trick is to learn to work incrementally.
-  * Make sure you only test for correct inputs. there is no need to test for invalid inputs for this kata
+  * Only test for correct inputs. There is no need to test for invalid inputs.
 
 ######Overview
 The Game of Life (aka "Life") is a cellular automaton devised by British mathematician John Horton Conway in 1970.
-It is a zero-player game, meaning its evolution is determined by its initial state, requiring no further input.  A player interacts with Game of Life
-by creating an initial configuration and observing how it evolves, or for advanced players, by creating patterns with particular properties.
+
+It is a zero-player game, meaning its evolution is determined by its initial state, requiring no further input.  A player interacts with the Game of Life by creating an initial configuration and observing how it evolves. Advanced players may interact by creating patterns with particular properties.
 
 The universe of the Game of Life is an infinite, 2d orthogonal grid of square cells, each of which has two possible states: alive or dead.
 
 Every cell interacts with its 8 neighbours, cells which are horizontally, vertically or diagonally adjacent.
 
-At each step in time, the following transitions occur (The Rules):
+At each iteration, the following transitions occur (The Rules):
 
     1. Any live cell with fewer than 2 live neighbors dies (underpopulation).
     2. Any live cell with 2 or 3 live neighbors lives to the next generation (sustaining).
@@ -44,7 +42,7 @@ Each subsequent generation is a pure function of the preceding generation.
     The method should take any whole number n and return a 2-dimensional boolean grid n x n squares.
     Seed values can be initialized as follows:
     
-    * all false or Dead
+    * all false or Dead 
     * all true or Live
     * all null  
     * randomly generated true and false values
