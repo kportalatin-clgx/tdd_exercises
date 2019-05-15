@@ -26,9 +26,9 @@
 
  3. Allow ```add()``` to handle new lines between numbers (instead of commas), where:
 
-    * input ok: ```1\n2,3 (equals 6)```
+    * input ok - ```1\n2,3 (equals 6)```
 
-    * input NOT ok: ```1,\n (no need to prove - just clarifying)```
+    * input NOT ok - ```1,\n (no need to prove - just clarifying)```
 
  4. Allow ```add()``` to support different delimiters:
   
@@ -52,10 +52,10 @@ Implement ```add()``` as follows:
 
    * Allow delimiters of any length with the following format:  
    
-    ```//[delimiter]\n``` or ```//[***]\n1***2***3 (returns 6)```
+     ```//[delimiter]\n``` or ```//[***]\n1***2***3 (returns 6)```
     
    * Allow multiple delimiters as follows: 
    
-   ```//[delim1][delim2]\n``` or ```//[*][%]\n1*2%3 (returns 6)```
+     ```//[delim1][delim2]\n``` or ```//[*][%]\n1*2%3 (returns 6)```
 
    * Handle multiple delimiters with lengths longer than one char
