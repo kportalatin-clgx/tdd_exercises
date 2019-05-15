@@ -12,9 +12,8 @@ This repository contains Test-Driven Development (TDD) practice exercises and th
 
 ### Links to Exercises
 
-  * #### Kata - String Calculator:
-  <https://github.com/kportalatin-clgx/tdd_exercises/tree/master/src/com/corelogic/k8port/kata> 
+  * #### Kata - String Calculator: https://github.com/kportalatin-clgx/tdd_exercises/tree/master/src/com/corelogic/k8port/kata 
   
 
-  * #### Conway's Game of Life:
-  <https://github.com/kportalatin-clgx/tdd_exercises/tree/master/src/com/corelogic/k8port/conwaysgameoflife> 
+  * #### Conway's Game of Life: https://github.com/kportalatin-clgx/tdd_exercises/tree/master/src/com/corelogic/k8port/conwaysgameoflife
+   
