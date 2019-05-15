@@ -13,34 +13,35 @@
  1. Create a simple String calculator with following method:
  
     ```int add(string numbers)```
-
-  *  The method can take 0, 1 or 2 numbers, and will return their sum (for an empty string it will return 0) for example “” or    “1” or “1,2”
-
-  * Start with the simplest test case of an empty string and move to 1 and two numbers
-
-  * Remember to solve things as simply as possible so that you force yourself to write tests you did not think about
-
-  * Remember to refactor after each passing test
+    
+    * Accept 0, 1 or 2 numbers, and return sum (empty string returns 0, e.g. “” or “1” or “1,2”)
+    * Start with simplest test case of empty string and progress to 1 and 2 numbers 
+    * Solve as simply as possible so as to force yourself think differently and write more efficient tests
+    * Refactor after each passing requirement
 
  2. Allow ```add()``` to handle an unknown amount of numbers
 
- 3. Allow ```add()``` to handle new lines between numbers (instead of commas), where:
+ 3. Allow ```add()``` to handle new lines instead of commas between numbers so that:
 
     * input ok - ```1\n2,3 (equals 6)```
 
     * input NOT ok - ```1,\n (no need to prove - just clarifying)```
 
- 4. Allow ```add()``` to support different delimiters:
+ 4. Allow ```add()``` to support different delimiters so that:
   
-    * To change delimiter, String contains a separate line: 
+    * To change delimiter, String contains a separate line 
         
         ```//[delimiter]\n[numbers…]``` or ```//;\n1;2``` 
         
-       Returns 3 when default delimiter is ```;```.
+       and returns 3 when default delimiter is ```;```
 
-    * Make first line optional and all scenarios still supported.
+    * First line is optional and all preceding scenarios still supported
 
-    * Call ```add()``` with negative number. Result throws exception “Negatives not allowed” and the negative number passed.  If multiple negatives, show all in Exception message.
+    * ```add()``` can be called with a negative number _n_, but throws following exception: 
+      
+      ```Negatives not allowed:  n```  
+     
+      If multiple negatives passed, show all in Exception message
 
  ---
 Stop here if you are a beginner.  Continue if proceeding steps completed in < 30 minutes.
