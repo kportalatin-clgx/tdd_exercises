@@ -1,22 +1,11 @@
 # Conway's Game of Life
 
-<<<<<<< HEAD
- The following is a TDD Kata- an exercise in coding, refactoring and test-first, that you should apply daily for at least 15 minutes (I do 30).
-=======
  The following is a TDD exercise - to get used to coding, refactoring and test-first development. For best results, apply daily for at least 30 minutes.
->>>>>>> 0c15ca82bc3701a7d125ed96e6fde60598655a04
 
-##TDD General Guidelines 
 
-  * Try not to read ahead.
-  * Do one task at a time. The trick is to learn to work incrementally.
-  * Only test for correct inputs. There is no need to test for invalid inputs.
 
-<<<<<<< HEAD
-###Exercise Overview
-=======
-#####Overview
->>>>>>> 0c15ca82bc3701a7d125ed96e6fde60598655a04
+##Overview
+
 The Game of Life (aka "Life") is a cellular automaton devised by British mathematician John Horton Conway in 1970.
 
 It is a zero-player game, meaning its evolution is determined by its initial state, requiring no further input.  A player interacts with the Game of Life by creating an initial configuration and observing how it evolves. Advanced players may interact by creating patterns with particular properties.
@@ -25,7 +14,13 @@ The universe of the Game of Life is an infinite, 2d orthogonal grid of square ce
 
 Every cell interacts with its 8 neighbours, cells which are horizontally, vertically or diagonally adjacent.
 
-####Game Rules
+#####TDD General Guidelines 
+
+  * Try not to read ahead.
+  * Do one task at a time. The trick is to learn to work incrementally.
+  * Only test for correct inputs. There is no need to test for invalid inputs.
+
+###Game of Life Rules
 At each step in time, the following transitions occur:
 
    1. **underpopulation:** a live cell with < 2 live neighbors dies
@@ -46,7 +41,7 @@ Each subsequent generation is a pure function of the preceding generation.
 
 Generations spawn infinitely or until program is stopped. 
 
-####Game of Life Keys for Successful TDD
+####Keys for Success
 
 * Start with the simplest test case (0)
 
@@ -56,7 +51,7 @@ Generations spawn infinitely or until program is stopped.
 
 * Solve as simply as possible.
 
-## Game of Life Requirements
+##Requirements
 1. Create a simple 2d grid with following method:
     
     ```boolean[] seed(int n)```
@@ -88,12 +83,14 @@ Generations spawn infinitely or until program is stopped.
  ---
 Stop here if you are a beginner. Continue if you can finish the steps so far in less than 30 minutes.
  ---
-X1. Implement the following method creating pictorial representation of grid at each _tick_:
+1. Implement the following method creating pictorial representation of grid at each _tick_:
  
- ```void display()```
+    ```void display()```
  
- The method may be implemented progressively as follows:
+    The method may be implemented progressively as follows:
  
- * Using output stream and binary values to create a representative grid
- * Implement a representation where grid's value to change on each _tick_
- * Use advanced classes and/or technologies to create a more stunning visual representation of the game
+     * Using output stream and binary values to create a representative grid
+     
+     * Implement a representation where grid's value to change on each _tick_
+     * Use advanced classes and/or technologies to create a more stunning visual representation of the game
+     
