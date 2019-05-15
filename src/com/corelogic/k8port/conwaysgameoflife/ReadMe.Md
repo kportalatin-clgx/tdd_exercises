@@ -8,7 +8,7 @@
   * Do one task at a time. The trick is to learn to work incrementally.
   * Only test for correct inputs. There is no need to test for invalid inputs.
 
-######Overview
+#####Overview
 The Game of Life (aka "Life") is a cellular automaton devised by British mathematician John Horton Conway in 1970.
 
 It is a zero-player game, meaning its evolution is determined by its initial state, requiring no further input.  A player interacts with the Game of Life by creating an initial configuration and observing how it evolves. Advanced players may interact by creating patterns with particular properties.
