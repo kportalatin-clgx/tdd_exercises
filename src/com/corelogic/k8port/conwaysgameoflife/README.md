@@ -43,9 +43,9 @@ Generations spawn infinitely or until program is stopped.
 
 #### Keys for Success
 
-Start with the simplest test case (0)
+Start with the simplest test case (1)
 
-Progress to 1, 2 and then multiple numbers.
+Progress 2 and then multiple numbers.
        
 Refactor after each requirement is met with all tests passing.
 
@@ -54,9 +54,9 @@ Solve as simply as possible.
 ## Requirements
 1. Create a simple 2d grid with following method:
     
-    ```boolean[] seed(int n)```
+    ```void seed(int n)```
      
-    The method should take any whole number _n_ and return a 2-d grid of _n x n_ square cells.
+    The method should take any whole number _n_ and fill a 2-d grid of _n x n_ square cells.
     
     Each cell will contain a boolean value _true_ if cell is live. 
     
