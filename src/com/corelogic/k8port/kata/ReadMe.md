@@ -14,13 +14,13 @@
  
     ```int add(string numbers)```
 
-    a. The method can take 0, 1 or 2 numbers, and will return their sum (for an empty string it will return 0) for example “” or “1” or “1,2”
+  *  The method can take 0, 1 or 2 numbers, and will return their sum (for an empty string it will return 0) for example “” or    “1” or “1,2”
 
-    b. Start with the simplest test case of an empty string and move to 1 and two numbers
+  * Start with the simplest test case of an empty string and move to 1 and two numbers
 
-    c. Remember to solve things as simply as possible so that you force yourself to write tests you did not think about
+  * Remember to solve things as simply as possible so that you force yourself to write tests you did not think about
 
-    d. Remember to refactor after each passing test
+  * Remember to refactor after each passing test
 
  2. Allow ```add()``` to handle an unknown amount of numbers
 
