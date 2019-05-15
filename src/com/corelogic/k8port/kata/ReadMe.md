@@ -1,8 +1,6 @@
-# Kata
+# Kata String Calculator
 
-## String Calculator
-
- The following is a TDD Kata- an exercise in coding, refactoring and test-first, that you should apply daily for at least 15 minutes (I do 30).
+ The following is a TDD Kata - an exercise in coding, refactoring and test-first, that you should apply daily for at least 15 minutes (I do 30).
 
  Before you start: 
 
@@ -12,40 +10,52 @@
 
 ### Requirements
 
- 1. Create a simple String calculator with a method ```int add(string numbers)```
+ 1. Create a simple String calculator with following method:
+ 
+    ```int add(string numbers)```
 
-  a. The method can take 0, 1 or 2 numbers, and will return their sum (for an empty string it will return 0) for example “” or “1” or “1,2”
+    a. The method can take 0, 1 or 2 numbers, and will return their sum (for an empty string it will return 0) for example “” or “1” or “1,2”
 
-  b. Start with the simplest test case of an empty string and move to 1 and two numbers
+    b. Start with the simplest test case of an empty string and move to 1 and two numbers
 
-  c. Remember to solve things as simply as possible so that you force yourself to write tests you did not think about
+    c. Remember to solve things as simply as possible so that you force yourself to write tests you did not think about
 
-  d. Remember to refactor after each passing test
+    d. Remember to refactor after each passing test
 
- 2. Allow the Add method to handle an unknown amount of numbers
+ 2. Allow ```add()``` to handle an unknown amount of numbers
 
- 3. Allow the Add method to handle new lines between numbers (instead of commas).
+ 3. Allow ```add()``` to handle new lines between numbers (instead of commas), where:
 
-  a. the following input is ok:  ```1\n2,3```  (will equal 6)
+    * input ok: ```1\n2,3``` (equals 6)
 
-  b. the following input is NOT ok:  ```1,\n``` (not need to prove it - just clarifying)
+    * input NOT ok: ```1,\n``` (no need to prove it - just clarifying)
 
- 4. Support different delimiters
+ 4. Allow ```add()``` to support different delimiters:
+  
+    * To change delimiter, String contains a separate line: 
+        
+        ```//[delimiter]\n[numbers…]``` or ```//;\n1;2``` 
+        
+       Should return 3 when default delimiter is ```;```.
 
-  a. to change a delimiter, the beginning of the string will contain a separate line that looks like this: ```//[delimiter]\n[numbers…]``` for example ```//;\n1;2``` should return three where the default delimiter is ‘;’.
+    * Make first line optional and all scenarios still supported.
 
-  b. the first line is optional. all existing scenarios should still be supported
-
- 5. Calling Add with a negative number will throw an exception “negatives not allowed” - and the negative that was passed.if there are multiple negatives, show all of them in the exception message
+    * Call ```add()``` with negative number. Result throws exception “Negatives not allowed” and the negative number passed.  If multiple negatives, show all in Exception message.
 
  ---
-stop here if you are a beginner. Continue if you can finish the steps so far in less than 30 minutes.
+Stop here if you are a beginner. Continue if proceeding steps completed in < 30 minutes.
  ---
 
- 6. Numbers bigger than 1000 should be ignored, so adding 2 + 1001  = 2
+Implement ```add()``` as follows:
 
- 7. Delimiters can be of any length with the following format:  ```//[delimiter]\n``` for example: ```//[***]\n1***2***3``` should return 6
+   * Ignore numbers > 1000, so that 2 + 1001  = 2 
 
- 8. Allow multiple delimiters like this:  ```//[delim1][delim2]\n``` for example ```//[*][%]\n1*2%3``` should return 6.
+   * Allow delimiters of any length with the following format:  
+   
+    ```//[delimiter]\n``` or ```//[***]\n1***2***3 (returns 6)```
+    
+   * Allow multiple delimiters as follows: 
+   
+   ```//[delim1][delim2]\n``` or ```//[*][%]\n1*2%3 (returns 6)```
 
- 9. make sure you can also handle multiple delimiters with length longer than one char
+   * Handle multiple delimiters with lengths longer than one char
