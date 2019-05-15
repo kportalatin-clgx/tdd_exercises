@@ -6,6 +6,10 @@ This repository contains Test-Driven Development (TDD) practice exercises and th
 
 ### TDD Guidelines
 
+  * Try not to read ahead.
+  * Do one task at a time. The trick is to learn to work incrementally.
+  * Only test for correct inputs. There is no need to test for invalid inputs.
+
 ### Links to Exercises
 
   * #### Kata - String Calculator 
