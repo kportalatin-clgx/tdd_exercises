@@ -26,9 +26,9 @@
 
  3. Allow ```add()``` to handle new lines between numbers (instead of commas), where:
 
-    * input ok: ```1\n2,3``` (equals 6)
+    * input ok: ```1\n2,3 (equals 6)```
 
-    * input NOT ok: ```1,\n``` (no need to prove it - just clarifying)
+    * input NOT ok: ```1,\n (no need to prove - just clarifying)```
 
  4. Allow ```add()``` to support different delimiters:
   
@@ -36,14 +36,14 @@
         
         ```//[delimiter]\n[numbers…]``` or ```//;\n1;2``` 
         
-       Should return 3 when default delimiter is ```;```.
+       Returns 3 when default delimiter is ```;```.
 
     * Make first line optional and all scenarios still supported.
 
     * Call ```add()``` with negative number. Result throws exception “Negatives not allowed” and the negative number passed.  If multiple negatives, show all in Exception message.
 
  ---
-Stop here if you are a beginner. Continue if proceeding steps completed in < 30 minutes.
+Stop here if you are a beginner.  Continue if proceeding steps completed in < 30 minutes.
  ---
 
 Implement ```add()``` as follows:
