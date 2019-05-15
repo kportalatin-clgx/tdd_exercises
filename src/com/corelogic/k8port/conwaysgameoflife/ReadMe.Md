@@ -4,7 +4,7 @@
 
 
 
-##Overview
+## Overview
 
 The Game of Life (aka "Life") is a cellular automaton devised by British mathematician John Horton Conway in 1970.
 
@@ -14,13 +14,13 @@ The universe of the Game of Life is an infinite, 2d orthogonal grid of square ce
 
 Every cell interacts with its 8 neighbours, cells which are horizontally, vertically or diagonally adjacent.
 
-#####TDD General Guidelines 
+#### TDD General Guidelines 
 
   * Try not to read ahead.
   * Do one task at a time. The trick is to learn to work incrementally.
   * Only test for correct inputs. There is no need to test for invalid inputs.
 
-###Game of Life Rules
+### Game of Life Rules
 At each step in time, the following transitions occur:
 
    1. **underpopulation:** a live cell with < 2 live neighbors dies
@@ -32,7 +32,7 @@ At each step in time, the following transitions occur:
    4. **reproduction:** A dead cell with exactly 3 live neighbors becomes a live cell
 
 
-####Lifespan of the Game
+#### Lifespan of the Game
 The initial pattern is called the _seed_.
 
 The 1st generation is created by applying the rules simultaneously to each cell in the seed.  This discrete moment is known as a _tick_.
@@ -41,17 +41,17 @@ Each subsequent generation is a pure function of the preceding generation.
 
 Generations spawn infinitely or until program is stopped. 
 
-####Keys for Success
+#### Keys for Success
 
-* Start with the simplest test case (0)
+Start with the simplest test case (0)
 
-* Progress to 1, 2 and then multiple numbers.
+Progress to 1, 2 and then multiple numbers.
        
-* Refactor after each requirement is met with all tests passing.
+Refactor after each requirement is met with all tests passing.
 
-* Solve as simply as possible.
+Solve as simply as possible.
 
-##Requirements
+## Requirements
 1. Create a simple 2d grid with following method:
     
     ```boolean[] seed(int n)```
@@ -83,14 +83,15 @@ Generations spawn infinitely or until program is stopped.
  ---
 Stop here if you are a beginner. Continue if you can finish the steps so far in less than 30 minutes.
  ---
-1. Implement the following method creating pictorial representation of grid at each _tick_:
+Implement the following method creating pictorial representation of grid at each _tick_:
  
-    ```void display()```
+ ```void display()```
  
-    The method may be implemented progressively as follows:
+ The method may be implemented progressively as follows:
  
-     * Using output stream and binary values to create a representative grid
+ * Using output stream and binary values to create a representative grid
      
-     * Implement a representation where grid's value to change on each _tick_
-     * Use advanced classes and/or technologies to create a more stunning visual representation of the game
+ * Implement a representation where grid's value to change on each _tick_
+ 
+ * Use advanced classes and/or technologies to create a more stunning visual representation of the game
      
