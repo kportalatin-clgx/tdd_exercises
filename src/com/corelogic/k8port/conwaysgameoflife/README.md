@@ -45,7 +45,7 @@ Generations spawn infinitely or until program is stopped.
 
 Start with the simplest test case (1)
 
-Progress 2 and then multiple numbers.
+Progress to 2, 3 and higher.
        
 Refactor after each requirement is met with all tests passing.
 
