@@ -1,17 +1,25 @@
 # Conway's Game of Life
 
+<<<<<<< HEAD
  The following is a TDD Kata- an exercise in coding, refactoring and test-first, that you should apply daily for at least 15 minutes (I do 30).
+=======
+ The following is a TDD exercise - to get used to coding, refactoring and test-first development. For best results, apply daily for at least 30 minutes.
+>>>>>>> 0c15ca82bc3701a7d125ed96e6fde60598655a04
 
 ##TDD General Guidelines 
 
   * Try not to read ahead.
   * Do one task at a time. The trick is to learn to work incrementally.
-  * Make sure you only test for correct inputs. there is no need to test for invalid inputs for this kata
+  * Only test for correct inputs. There is no need to test for invalid inputs.
 
+<<<<<<< HEAD
 ###Exercise Overview
+=======
+#####Overview
+>>>>>>> 0c15ca82bc3701a7d125ed96e6fde60598655a04
 The Game of Life (aka "Life") is a cellular automaton devised by British mathematician John Horton Conway in 1970.
-It is a zero-player game, meaning its evolution is determined by its initial state, requiring no further input.  A player interacts with Game of Life
-by creating an initial configuration and observing how it evolves, or for advanced players, by creating patterns with particular properties.
+
+It is a zero-player game, meaning its evolution is determined by its initial state, requiring no further input.  A player interacts with the Game of Life by creating an initial configuration and observing how it evolves. Advanced players may interact by creating patterns with particular properties.
 
 The universe of the Game of Life is an infinite, 2d orthogonal grid of square cells, each of which has two possible states: alive or dead.
 
@@ -61,7 +69,6 @@ Generations spawn infinitely or until program is stopped.
     
     * all _false_ (all dead)
     * all _true_ (all live)
-    * randomly generated true and false values
                
 2. Implement the following method representing generational iterations:
 
@@ -90,5 +97,3 @@ X1. Implement the following method creating pictorial representation of grid at 
  * Using output stream and binary values to create a representative grid
  * Implement a representation where grid's value to change on each _tick_
  * Use advanced classes and/or technologies to create a more stunning visual representation of the game
-
- 

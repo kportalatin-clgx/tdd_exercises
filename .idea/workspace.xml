@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51416235-aa51-48ae-85c7-227465ce8eee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/corelogic/k8port/conwaysgameoflife/ReadMe.Md" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/corelogic/k8port/conwaysgameoflife/ReadMe.Md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,8 +21,8 @@
         <entry file="file://$PROJECT_DIR$/src/com/corelogic/k8port/conwaysgameoflife/ReadMe.Md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1275">
-                <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+              <first_editor relative-caret-position="1294">
+                <caret line="99" selection-start-line="99" selection-end-line="99" />
               </first_editor>
               <second_editor />
             </state>
@@ -149,12 +147,12 @@
       <option name="presentableId" value="Default" />
       <updated>1557939432226</updated>
       <workItem from="1557939433569" duration="4397000" />
-      <workItem from="1557950120522" duration="2049000" />
+      <workItem from="1557950120522" duration="2139000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6446000" />
+    <option name="totallyTimeSpent" value="6536000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="983" y="23" width="1373" height="1417" extended-state="0" />
@@ -216,8 +214,8 @@
     <entry file="file://$PROJECT_DIR$/src/com/corelogic/k8port/conwaysgameoflife/ReadMe.Md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1275">
-            <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+          <first_editor relative-caret-position="1294">
+            <caret line="99" selection-start-line="99" selection-end-line="99" />
           </first_editor>
           <second_editor />
         </state>
