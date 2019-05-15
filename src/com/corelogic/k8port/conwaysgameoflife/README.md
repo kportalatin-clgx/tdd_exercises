@@ -64,6 +64,7 @@ Solve as simply as possible.
     
     * all _false_ (all dead)
     * all _true_ (all live)
+    * random true or false value
                
 2. Implement the following method representing generational iterations:
 
