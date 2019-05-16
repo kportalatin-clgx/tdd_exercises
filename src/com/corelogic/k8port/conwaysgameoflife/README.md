@@ -55,16 +55,20 @@ Solve as simply as possible.
 1. Create a simple 2d grid with following method:
     
     ```void seed(int n)```
-     
-    The method should take any whole number _n_ and fill a 2-d grid of _n x n_ square cells.
+    
+    Method should take the following iterations of input  and fill a 2-d grid of _n x n_ square cells:
+     * 0 (when 0 defaults to 8 x 8 grid)
+     * 1
+     * 2
+     * 3
+     * any whole number _n_
     
     Each cell will contain a boolean value _true_ if cell is live. 
+    Initialize _seed_ values to 0 (all dead);
     
-    The _seed_ may be initialized as follows:
-    
-    * all _false_ (all dead)
-    * all _true_ (all live)
-    * random true or false value
+    Once _seed_ can initialize to any whole number, introduce the following initializations of values:
+     * all to 1 (all live)
+     * random 1 or 0 (live or dead)
                
 2. Implement the following method representing generational iterations:
 
