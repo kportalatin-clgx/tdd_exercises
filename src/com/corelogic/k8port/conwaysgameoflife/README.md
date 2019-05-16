@@ -57,7 +57,7 @@ Solve as simply as possible.
     ```void seed(int n)```
     
     Method should take the following iterations of input  and fill a 2-d grid of _n x n_ square cells:
-     * 0 (when 0 defaults to 8 x 8 grid)
+     * 0 (when 0 defaults to 1 x 1 grid)
      * 1
      * 2
      * 3
