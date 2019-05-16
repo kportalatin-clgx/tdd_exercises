@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51416235-aa51-48ae-85c7-227465ce8eee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/corelogic.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/corelogic/k8port/conwaysgameoflife/ConwaysGameOfLife.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/corelogic/k8port/conwaysgameoflife/ConwaysGameOfLife.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/corelogic/k8port/conwaysgameoflife/ConwaysGameOfLifeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/corelogic/k8port/conwaysgameoflife/ConwaysGameOfLifeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/corelogic/k8port/kata/stringcalculator/StringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/corelogic/k8port/kata/stringcalculator/StringCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/corelogic/k8port/kata/stringcalculator/StringCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/corelogic/k8port/kata/stringcalculator/StringCalculatorTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,28 +21,16 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/corelogic/k8port/kata/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1178">
-                <caret line="62" selection-start-line="62" selection-end-line="62" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/corelogic/k8port/kata/stringcalculator/StringCalculator.java">
+        <entry file="file://$PROJECT_DIR$/src/com/corelogic/k8port/conwaysgameoflife/ConwaysGameOfLife.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+            <state relative-caret-position="57">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/corelogic/k8port/kata/stringcalculator/StringCalculatorTest.java">
+        <entry file="file://$PROJECT_DIR$/src/com/corelogic/k8port/conwaysgameoflife/ConwaysGameOfLifeTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
               <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
@@ -62,6 +47,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -73,10 +63,10 @@
         <option value="$PROJECT_DIR$/src/com/corelogic/k8port/kata/ReadMe.md" />
         <option value="$PROJECT_DIR$/src/com/corelogic/k8port/conwaysgameoflife/ReadMe.Md" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/com/corelogic/k8port/conwaysgameoflife/ConwaysGameOfLifeTest.java" />
-        <option value="$PROJECT_DIR$/src/com/corelogic/k8port/conwaysgameoflife/ConwaysGameOfLife.java" />
-        <option value="$PROJECT_DIR$/src/com/corelogic/k8port/kata/stringcalculator/StringCalculator.java" />
         <option value="$PROJECT_DIR$/src/com/corelogic/k8port/kata/stringcalculator/StringCalculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/com/corelogic/k8port/kata/stringcalculator/StringCalculator.java" />
+        <option value="$PROJECT_DIR$/src/com/corelogic/k8port/conwaysgameoflife/ConwaysGameOfLife.java" />
+        <option value="$PROJECT_DIR$/src/com/corelogic/k8port/conwaysgameoflife/ConwaysGameOfLifeTest.java" />
       </list>
     </option>
   </component>
@@ -115,15 +105,7 @@
               <item name="tdd_exercises" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="k8port" type="462c0819:PsiDirectoryNode" />
-              <item name="kata" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tdd_exercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tdd_exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="k8port" type="462c0819:PsiDirectoryNode" />
-              <item name="kata" type="462c0819:PsiDirectoryNode" />
-              <item name="stringcalculator" type="462c0819:PsiDirectoryNode" />
+              <item name="conwaysgameoflife" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -137,6 +119,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -153,7 +138,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConwaysGameOfLifeTest">
+  <component name="RunManager" selected="Application.StringCalculatorTest">
     <configuration name="ConwaysGameOfLifeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.corelogic.k8port.conwaysgameoflife.ConwaysGameOfLifeTest" />
       <module name="Kata" />
@@ -182,8 +167,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConwaysGameOfLifeTest" />
         <item itemvalue="Application.StringCalculatorTest" />
+        <item itemvalue="Application.ConwaysGameOfLifeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -199,12 +184,12 @@
       <updated>1557939432226</updated>
       <workItem from="1557939433569" duration="4397000" />
       <workItem from="1557950120522" duration="9918000" />
-      <workItem from="1558037527121" duration="152000" />
+      <workItem from="1558037527121" duration="2516000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14467000" />
+    <option name="totallyTimeSpent" value="16831000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="851" y="23" width="1373" height="1417" extended-state="0" />
@@ -219,7 +204,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3297491" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3297491" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -259,20 +244,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/corelogic/k8port/conwaysgameoflife/ConwaysGameOfLifeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/corelogic/k8port/conwaysgameoflife/ConwaysGameOfLife.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/corelogic/k8port/conwaysgameoflife/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -283,10 +254,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/corelogic/k8port/kata/stringcalculator/StringCalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/corelogic/k8port/kata/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1178">
+          <first_editor relative-caret-position="771">
             <caret line="62" selection-start-line="62" selection-end-line="62" />
           </first_editor>
           <second_editor />
@@ -295,12 +273,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/corelogic/k8port/kata/stringcalculator/StringCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        <state relative-caret-position="76">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/corelogic/k8port/kata/stringcalculator/StringCalculatorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/corelogic/k8port/conwaysgameoflife/ConwaysGameOfLife.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/corelogic/k8port/conwaysgameoflife/ConwaysGameOfLifeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
